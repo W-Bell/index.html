@@ -1,0 +1,30 @@
+body {
+ background-image: url(cube.jpg);
+ background-size: auto;
+ background-repeat: no-repeat;
+}
+
+.cat {
+  height: 300px;
+  border: 10px solid transparent;
+  border-image: url(border.png) 30 stretch;
+}
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+  color: white;
+  background-color: black;
+}
+
+ul {
+  list-style-image: url('link.gif');
+}
+
+#wrapper {
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
